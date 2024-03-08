@@ -1,4 +1,8 @@
-{{ config(tags = ['location']) }}
+{{ config(
+    materialised = 'table',
+    tags = ['location']
+    ) 
+}}
 
 with nation as (
     
